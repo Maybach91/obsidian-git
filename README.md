@@ -1,3 +1,10 @@
+# Own Features
+## Commit Messages
+* [x] Allow multiline commits for separation of commit message body
+* [x] Add linebreak after filename within {{files}} variable 
+
+
+--- 
 # Obsidian Git
 
 Plugin that allows you to back up your [Obsidian.md](https://obsidian.md) vault to a remote Git repository (e.g. private repo on GitHub).
