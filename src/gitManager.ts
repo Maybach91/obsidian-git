@@ -253,7 +253,7 @@ export abstract class GitManager {
                 chunks.push(action + " " + files.join(" "));
             }
 
-            const files = chunks.join(", ");
+            const files = chunks.join(", \n");
 
             template = template.replace("{{files}}", files);
         }
